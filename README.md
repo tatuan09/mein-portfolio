@@ -22,13 +22,18 @@ A clean, modern, and fully responsive Portfolio Website built with **HTML, CSS, 
 
 ## 📁 Project Structrue
 
-├── index.html # (Tailwind CSS)
-├─   ─ about.html #
-├── projects.html #
-├── skills.html #
-├── contact.html
+mein-portfolio/
+│
+├── index.html              # Home page with Tailwind CSS
+├── about.html              # About me page
+├── projects.html           # Projects showcase page
+├── skills.html             # Skills and technologies page
+├── contact.html            # Contact form page
+│
 ├── css/
-│ └── style.css #
+│   └── style.css           # Custom CSS for all subpages
+├
+└── README.md               # Project documentation
 
 ## 📱 Pages
 - **Home** - Introduction and skills
