@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trần Tuấn | Full Stack Developer</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome cho icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-gray-800">
+                    <a href="index.html">Trần<span class="text-purple-600">Tuấn</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-900 border-b-2 border-purple-600 pb-1 font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-gray-900 transition">About</a>
+                    <a href="projects.html" class="text-gray-600 hover:text-gray-900 transition">Projects</a>
+                    <a href="skills.html" class="text-gray-600 hover:text-gray-900 transition">Skills</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+                </div>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Bạn chừa chỗ này để thêm ảnh -->
+    <main class="pt-24 pb-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Hero Section - Bạn THÊM ẢNH VÀO ĐÂY -->
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Ảnh đại diện - Bạn thay link ảnh vào đây -->
+                <div class="md:w-1/3">
+                    <div class="relative">
+                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto">
+                            <!-- THAY LINK ẢNH CỦA BẠN VÀO ĐÂY -->
+                            <img src="images/profile.jpg" alt="Trần Tuấn" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-4 -right-4 bg-purple-600 text-white p-3 rounded-full shadow-lg">
+                            <i class="fas fa-code text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Nội dung giới thiệu -->
+                <div class="md:w-2/3 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                        Hi, I'm <span class="text-purple-600">Trần Tuấn</span>
+                    </h1>
+                    
+                    <p class="text-xl md:text-2xl text-gray-600 mb-6">
+                        <span class="border-r-2 border-purple-600 pr-2 mr-2">Full Stack Developer</span>
+                        <span class="text-purple-600 font-semibold">20 tuổi</span>
+                    </p>
+                    
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto md:mx-0">
+                        I'm a passionate Full Stack Developer specializing in the MERN Stack. 
+                        I love solving challenging Data Structure & Algorithm problems and exploring new technologies.
+                    </p>
+                    
+                    <!-- Buttons -->
+                    <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                        <a href="projects.html" class="px-8 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition shadow-lg flex items-center gap-2">
+                            <i class="fas fa-eye"></i> View My Work
+                        </a>
+                        <a href="contact.html" class="px-8 py-3 border-2 border-purple-600 text-purple-600 rounded-lg hover:bg-purple-50 transition flex items-center gap-2">
+                            <i class="fas fa-envelope"></i> Get in Touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Grid (giống ảnh bạn gửi) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-laptop-code text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Full Stack Developer</h3>
+                            <p class="text-sm text-gray-600">Building complete web solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-database text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">MERN Stack Developer</h3>
+                            <p class="text-sm text-gray-600">MongoDB, Express, React, Node.js</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-brain text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">DSA Problem Solver</h3>
+                            <p class="text-sm text-gray-600">Solving complex algorithms</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-robot text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">AI/ML Enthusiast</h3>
+                            <p class="text-sm text-gray-600">Exploring artificial intelligence</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-chart-bar text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Data Science Enthusiast</h3>
+                            <p class="text-sm text-gray-600">Analyzing and visualizing data</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-2xl text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Cybersecurity Enthusiast</h3>
+                            <p class="text-sm text-gray-600">Securing systems and data</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links (chỉ giữ lại GitHub và LinkedIn) -->
+            <div class="flex justify-center gap-6 mt-12">
+                <a href="#" class="text-gray-400 hover:text-purple-600 transition text-2xl">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-purple-600 transition text-2xl">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center text-gray-600">
+            <p>© 2025 Trần Tuấn - 20 tuổi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
